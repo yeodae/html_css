@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="date.html">
+    <!-- 제출 누르는순간 인풋에있는 데이터를 date.html로 넣어줌 -->
+
+    <!-- <fieldset>
+        <label>아이디 : <input type="text"> </label>
+        <label>비밀번호 : <input type="password"></label> 
+        <button>로그인</button> --> 
+<!-- <input type="submit" value="로그읜"> JSP에서 많이 쓰일 문법--> 
+    <!-- </fieldset> -->
+    
+    <fieldset>
+        <legend>상품 선택</legend>
+    </fieldset>
+
+    <fieldset>
+        <legend>배송 정보</legend>
+        <ul>
+            <label><li>이름  <input type="text" required autofocus></li> </label>
+            <label><li>배송 주소  <input type="text"></li> </label>
+            <label><li>이메일  <input type="text" disabled></li> </label>
+            <!-- readonly는 입력이 될것같기에 disabled 사용  -->
+            <label><li>연락처 <input type="tel" placeholder="숫자만 입력하세요."></li> </label>
+        </ul>
+    </fieldset>
+    <div>
+    <input type="submit" value="제출">
+    <!-- 제출 누르는순간 인풋에있는 데이터를 폼에있는 action로넣어줌 -->
+    <input type="reset" value="초기화">
+    <input type="button" onclick="alert('ㅋㅋㅋㅋ')" value="그냥 버튼">
+    <input type="file">
+
+</div>
+
+</form>
+</body>
+</html>
