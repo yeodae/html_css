@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        .grad1{
+            background: radial-gradient(circle closest-side at 50% 30%, blue, tomato,black);
+            /* 가장 가까운 side까지 이동 */
+        }
+        .grad2{
+            background: radial-gradient(circle closest-corner at 40% 30%, green, tomato,beige);
+            /* 가장 가까운 side까지 이동 */
+        }
+        .grad3{
+            background: radial-gradient(circle farthest-side at 60% 30%, green, tomato,beige);
+        }
+        .grad4{
+            background: radial-gradient(circle farthest-corner at 50% 60%, green, tomato,beige);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1 grad1"></div>
+    <div class="box1 grad2"></div>
+    <div class="box1 grad3"></div>
+    <div class="box1 grad4"></div>
+</body>
+</html>

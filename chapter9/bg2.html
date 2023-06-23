@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(bg2.png);
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-attachment: fixed;
+            /* 백그라운드 이미지 고정 스크롤 내려도 고정*/
+        }
+        /* div{
+            margin-bottom: 1500px;
+        } */
+        div{
+            width: 300px;
+            height: 200px;
+            padding: 30px;
+            border: 3px dotted gray;
+            background-image: url(bg3.png);
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-bottom: 20px;
+        }
+        .cls1{
+            background-origin: content-box;
+        }
+        .cls2{
+            background-origin: border-box;
+        }
+        .cls3{
+            background-origin: padding-box;
+            /* 디폴트값 */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="cls1">자바 프로그래밍, 오라클 데이터 베이스 , HTML/CSS/JAVASCRIPT 어렵다 어려워</div>
+    <div class="cls2">자바 프로그래밍, 오라클 데이터 베이스 , HTML/CSS/JAVASCRIPT 어렵다 어려워</div>
+    <div class="cls3">자바 프로그래밍, 오라클 데이터 베이스 , HTML/CSS/JAVASCRIPT 어렵다 어려워</div>
+    
+</body>
+</html>

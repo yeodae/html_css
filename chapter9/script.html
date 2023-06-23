@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: blue;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="js1">자바스크립트 실습 예제</div>
+    <div id="js2">자바스크립트 실습 예제</div>
+    <button onclick="clickEvent()">클릭</button>
+</body>
+</html>
+<script>
+    function clickEvent(){
+        // alert("클릭했다!");
+        var obj = document.querySelector('#js1');
+        var obj = document.querySelector('#js2');
+        console.log("로그 창 ==>",obj);
+        obj.style.color = 'tomato';
+    }
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>메뉴 화면</title>
+		<style>
+			ul {
+				list-style: none;				
+			}
+			ul li {    
+				float:left;		
+			}
+			a {
+				display:block;
+				padding:10px 20px;
+				background-color:#ccc;
+			}		
+			a:link, a:visited {
+				text-decoration: none;
+				color : black;
+			}
+			a:hover {
+				background-color:#000;
+				color:#fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li><a href="resume.html">소개페이지</a></li>
+				<li><a href="quiz-1.html">퀴즈1</a></li>
+				<li><a href="quiz-2.html">퀴즈2</a></li>
+				<li><a href="quiz-3.html" onclick="alert('파일을 삭제해버렸어요..')">퀴즈3</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

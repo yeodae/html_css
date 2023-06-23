@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #container{
+            margin: 0 auto;
+            width: 700px;
+            height: 900px;
+            border: 1px solid gray;
+            box-shadow: 5px 5px 10px black;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .c1{
+            float: left;
+            width: 200px;
+            /* border: 1px solid gray; */
+            background-color: rgba(116, 108, 108, 0.5);
+            height: 100%;
+            text-align: center;
+            
+        }
+        .c2,.c3,.c4,.c5{
+            /* float: left; */
+            height: 25%;
+            margin: 15px;
+            margin-left: 35%;
+
+            display: block
+        }
+        .nl{
+            list-style: none;
+            margin: 15px;
+            font-size: 14px;
+            line-height: 25px;
+        }
+        .n2{
+            margin: 15px;
+            font-size: 14px;
+            line-height: 25px;
+            
+        }
+        .h1{
+            color: black;
+            margin: 5px;
+        }
+        small{
+            font-weight: lighter;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        .h2{
+        
+        }
+        .text{
+            text-align: left;
+            margin: 15px;
+            font-size: 14px;
+            font-style: italic;
+        }
+        img{
+            width: 100px;
+            box-shadow: 3px 3px 30px orange;
+            border: 1px solid rgb(247, 200, 112);
+            border-radius: 30%;
+            margin-top: 15px;
+            margin-bottom: 30px;   
+        }
+        .dog:hover {
+         transform: scale(1.15);
+         transition-duration: 1s;
+        }
+        .h2{
+            width: 50%;
+        }
+        table{
+            border: 2px dotted orange;
+            width: 90%;
+        }
+        caption{
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        td{
+            border: 1px dotted rgba(255, 166, 0, 0.692);
+            padding: 5px;   
+        }
+        .mini{
+            font-size: 12px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        body{
+           background: url("vent.jpg") no-repeat;
+           background-size: cover;
+           height: 100vh;
+        }
+        .list1{
+            list-style-image: url();
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <div class="c1">
+            <div class="dog">
+            <img src="KakaoTalk_20230622_173806822.jpg" alt="">
+        </div>
+            <h2>시저<small>Cesar</small></h2>
+            <hr class="h1">
+            <div class="text"> 눕 고 싶 다 </div>
+            <div class="text">고 싶 다</div>
+            <div class="text">싶 다</div>
+            <div class="text">다</div>
+        </div>
+        <div class="c2"><h2>자기소개</h2>
+            <ul class="nl">
+                <li>ISFP</li>
+                <li>할 줄 아는건 없구요</li>
+                <li>누워서 유튜브 보고싶습니다</li>
+                <li>....네</li> 
+                
+            </ul>
+          </div>
+        <hr class="h2" align="center">
+        <div class="c3"><h2>경 력</h2>
+            <ul>
+                <li class="n2">프론트엔드 개발
+                    <ul>
+                        <li>HTML 잘할예정</li>
+                        <li>CSS 잘할예정</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li class="n2">백엔드 개발
+                    <ul>
+                        <li class="list1"> Java 잘할예정</li>
+                        <li> Oracle ???</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr class="h2">
+        <div class="c4">
+            <table>
+                <caption><h2>학 력</h2></caption>
+                <thead>
+                    <tr>
+                        <td>출신학교</td>
+                        <td>전 공</td>
+                        <td>기 간</td>
+                        <td>구분</td>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>댕댕대학교</td>
+                        <td>기 계</td>
+                        <td>2019.12 ~ ing</td>
+                        <td>재학</td>
+                    </tr>
+                    <tr>
+                        <td>더조은학원</td>
+                        <td> Java</td>
+                        <td>2023.5 ~ ing</td>
+                        <td>재학</td>
+                    </tr>
+            </table>
+            <div class="mini">오라클 자바 잘하고싶은데요</div>
+           
+        </div>
+            <hr class="h2">
+        <div class="c5"><h2>기타사항</h2>
+            <ul>
+                <li class="nl"> 봐주셔서 감사합니다!</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
